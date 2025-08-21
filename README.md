@@ -18,6 +18,7 @@ The application can be integrated into communication and meeting platforms (e.g.
 ## ⚙️ Installation
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/sign-language-recognition.git
+git clone https://github.com/Mahdi-Bel-Haj-Said/sign-language-recognition.git
 cd sign-language-recognition 
+pip install -r requirements.txt
 ```
