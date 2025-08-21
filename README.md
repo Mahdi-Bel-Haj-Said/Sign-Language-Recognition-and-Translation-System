@@ -28,4 +28,15 @@ git clone https://github.com/Mahdi-Bel-Haj-Said/Sign-Language-Recognition-and-Tr
 cd Sign-Language-Recognition-and-Translation-System
 # Install dependencies
 pip install -r requirements.txt
+```
+
+## Usage 
+1) 
+```bash
+    parser.add_argument('--classes', type=int, default=3, help='Number of classes to capture')
+```
+
+```bash
+    labels_dict = {0: 'A', 1: 'B', 2: 'L'}
+```
 
