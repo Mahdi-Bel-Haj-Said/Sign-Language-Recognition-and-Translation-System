@@ -18,7 +18,19 @@ The application can be integrated into communication and meeting platforms (e.g.
 ## ⚙️ Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Mahdi-Bel-Haj-Said/sign-language-recognition.git
-cd sign-language-recognition 
+git clone https://github.com/Mahdi-Bel-Haj-Said/Sign-Language-Recognition-and-Translation-System.git
+cd Sign-Language-Recognition-and-Translation-System
 pip install -r requirements.txt
 ```
+
+## Train the model (optional if you use pre-trained model) 
+1) open collect_imgs.py 
+alter the line 34 and chose how many classes you want to add to the model by changing the number of classes to capture in the code 
+```bash
+    parser.add_argument('--classes', type=int, default=3, help='Number of classes to capture')
+```
+3) run collect_imgs.py 
+python src/train.py 
+
+## Run real-time recognition
+python src/recognize.py
