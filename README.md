@@ -14,3 +14,10 @@ The application can be integrated into communication and meeting platforms (e.g.
 - **OpenCV**  
 - **Scikit-learn**  
 - **MediaPipe**
+
+## ⚙️ Installation
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/sign-language-recognition.git
+cd sign-language-recognition 
+```
